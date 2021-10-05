@@ -45,8 +45,16 @@
   background-color: blueviolet;
 }
 
-#under {
+/* #under {
   width: 100%;
   height: 2%;
   background-color: goldenrod;
+} */
+
+.inlineCorrect {
+  background: rgba(0, 255, 115, 0.5);
+}
+
+.inlineFalse {
+  background: rgba(205, 92, 92, 0.5);
 }

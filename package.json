@@ -1,6 +1,14 @@
 {
   "name": "fast-type",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "description": "App to improve coding speed.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "private": true,
   "dependencies": {
     "@monaco-editor/react": "^4.2.2",
@@ -13,11 +21,23 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/David-Leatham/fast-type.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "David",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/David-Leatham/fast-type/issues"
+  },
+  "homepage": "https://github.com/David-Leatham/fast-type#readme",
+  "devDependencies": {
+    "webpack": "^5.56.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.3.1"
   },
   "eslintConfig": {
     "extends": [
